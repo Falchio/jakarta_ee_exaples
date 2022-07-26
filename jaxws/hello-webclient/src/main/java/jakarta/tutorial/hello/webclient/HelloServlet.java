@@ -92,7 +92,7 @@ public class HelloServlet extends HttpServlet {
     }// </editor-fold>
 
     private String sayHello(java.lang.String arg0) {
-        jakarta.tutorial.helloservice.endpoint.Hello port = 
+        jakarta.tutorial.helloservice.Hello port =
                 service.getHelloPort();
         return port.sayHello(arg0);
     }
